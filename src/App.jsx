@@ -1,12 +1,15 @@
-import Main from "./components/Main/Main";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
+import Header from "./components/Header/Header";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Portflio from "./components/Portflio/portflio";
 
 function App() {
   return (
     <>
-      <Main></Main>
       <Navbar></Navbar>
-      <h1>this my app </h1>
+      <Header></Header>
+      <AboutMe></AboutMe>
+      <Portflio></Portflio>
     </>
   );
 }

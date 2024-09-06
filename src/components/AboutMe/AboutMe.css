@@ -1,0 +1,17 @@
+.AboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+}
+.AboutMe h1 {
+  font-size: 2.5rem;
+  direction: rtl;
+  margin: auto;
+  width: 50vw;
+}
+.AboutMe p {
+  font-size: 1.5rem;
+  width: 60%;
+}
